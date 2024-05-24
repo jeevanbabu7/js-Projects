@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
+</head>
+<body>
+    
+    <main class="main-container">
+            <div class="tab">
+                <h2 class="header">Register</h2>
+                <form>
+                    <p>Name</p>
+                    <input type="text" class="inputBox1" placeholder="Enter your name">
+                    <p>Email</p>
+                    <input type="email" class="inputBox2" placeholder="example@gmail.com">
+                    <div class="btn-container">
+                        <button class="submit-btn">Continue</button>
+                    </div>
+                </form>
+            </div>
+        
+            <div class="tab">
+                <h2 class="header">Which topics you are interested in?</h2>
+                <form>
+                    <div class="options-container">
+                        <div class="option" >
+                            <option class="topic" value="Software development">
+                                Software development
+                            </option>
+                        </div>
+                        <div class="option">
+                            <option class="topic" value="User experience">
+                                User experience
+                            </option>
+                        </div>
+                        <div class="option">
+                            <option class="topic" value="Graphic design">
+                                Graphic design
+                            </option>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <button class="submit-btn">Continue</button>
+                    </div>
+                </form>
+             
+            </div>
+
+
+            <div class="tab summary-tab">
+                <h3>Summary</h3>
+                <div style="padding-bottom: 1rem;">
+                    <span class="name">Name: </span>
+                    <span class="name--value"></span>
+                </div>
+            
+                <div style="margin-bottom: 1rem;">
+                    <span class="name">Email: </span>
+                    <span class="email--value"></span>
+                </div>
+      
+                <div>
+                    <span class="name">Topics: </span>
+                    <ul class="topics--summary">
+
+                    </ul>
+                </div>
+                
+                <form>
+                    <div class="btn-container">
+                        <button class="submit-btn">Submit</button>
+                    </div>
+                </form>
+             
+            </div>
+
+
+        <div class="bottom-dots">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+          
+        </div>
+    </main>
+
+    <script type="module" src="../script/script.js"></script>
+</body>
+</html>

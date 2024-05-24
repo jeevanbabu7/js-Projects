@@ -1,0 +1,151 @@
+body {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(18,24,38,1) 7%, rgba(18,24,38,1) 83%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-left {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: -7rem;
+    background-color: #652CD1;
+}
+.tab {
+   width: 70%;
+   max-width: 400px;
+   height: 60%;
+   max-height: 800px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #212936;
+    padding-top: 1rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    padding-bottom: 1.5rem;
+    transition-duration: 1s;
+    
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+.header {
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: left;
+}
+
+.inputBox1 , .inputBox2 {
+    width: 100%;
+    padding: .8rem;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: whitesmoke;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+form {
+    color: rgb(189, 189, 189);
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.submit-btn {
+    background: rgb(132,94,238);
+    background: linear-gradient(318deg, rgba(132,94,238,1) 0%, rgba(101,44,209,1) 16%, rgba(101,44,209,1) 71%, rgba(132,94,238,1) 100%);
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 8rem;
+    
+}
+
+
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.step {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.main-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.option > option {
+    height: 2.8rem;
+    background-color: #394150;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;   
+    cursor: pointer;
+    width: 100%;
+    font-weight: 900;
+}
+
+.bottom-dots{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visited{
+    background-color: #845EEE;
+    
+}
+.active {
+    border: 5px solid #652CD1;
+}
+
+.summary-tab {
+    color: whitesmoke;
+}
+
+.summary-tab form{
+    margin-top: 4em;
+    
+}
+
+.name {
+    color: grey;
+}
